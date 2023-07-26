@@ -1,5 +1,5 @@
 '''
-  -> Brian Belluomini 
+  -> Brian Belluomini
   -> Portfolio-Web-App
 
   -> To run application, type python App.py in the terminal &
@@ -12,5 +12,12 @@ import dash_bootstrap_components as dbc
 
 # + --- initialization --- +
 app = Dash(__name__,
-           use_pages= True, 
+           use_pages= True,
            external_stylesheet= [dbc.themes.FLATLY])
+
+
+# + --- laypout --- +
+''' This is the only page that should contain a 'app.layout' function.
+    For other app Pages or Elements, define the layout as a function.
+'''
+app.layout =
