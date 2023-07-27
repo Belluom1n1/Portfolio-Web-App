@@ -30,7 +30,10 @@ app.layout = dbc.Container(
     [
         NAVBAR,
         dash.page_container,
-    ], fluid = True
+    ],
+    fluid = True,
+    dark= True,
+    color= 'dark'
 )
 
 # + --- run server --- +
