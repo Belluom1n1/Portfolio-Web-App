@@ -13,7 +13,8 @@ import dash_extensions as de
 BRAND = '/assets/compassMech.ico'
 myBrand = html.Div(
     [
-        html.Img(src= '/assets/compassMech.ico', width= '50', height= '50', alt= '', className= 'img-fluid m-0 p-0 inline-block'),
+        html.Img(src= '/assets/compassMech.ico', width= '50', height= '50', alt= '',
+        className= 'img-fluid m-0 p-0 inline-block'),
         ' ',
     ],
     className= 'ms-2'
