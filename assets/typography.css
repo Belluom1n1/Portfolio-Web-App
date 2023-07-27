@@ -1,11 +1,13 @@
-    body-text {
+    #body-text {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
+        font-size: medium;
     }
 
-    body-text-alt {
+    #body-text-alt {
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
+        font-size: medium;
         font-style: italic;
     }
 
@@ -14,16 +16,16 @@
     margin-top: 0;
     margin-bottom: 0; }
 
-    h1 { font-size: 4.5rem; font-weight: 400; letter-spacing: -.1rem; }
-    h2 { font-size: 3.6rem; font-weight: 400; letter-spacing: -.1rem; }
+    #h1 { font-size: 4.5rem; font-weight: 400; letter-spacing: -.1rem; }
+    #h2 { font-size: 3.6rem; font-weight: 400; letter-spacing: -.1rem; }
     #h2-sub { font-size: 3.6rem; font-weight: 200; letter-spacing: -.1rem; font-style: italic; }
-    h3 { font-size: 3.0rem; font-weight: 400; letter-spacing: -.1rem; }
+    #h3 { font-size: 3.0rem; font-weight: 400; letter-spacing: -.1rem; }
     #h3-sub { font-size: 3.0rem; font-weight: 200; letter-spacing: -.1rem; font-style: italic; }
-    h4 { font-size: 2.2rem; font-weight: 400; letter-spacing: -.08rem; }
+    #h4 { font-size: 2.2rem; font-weight: 400; letter-spacing: -.08rem; }
     #h4-sub { font-size: 2.2rem; font-weight: 200; letter-spacing: -.08rem; font-style: italic; }
-    h5 { font-size: 2.0rem; font-weight: 400; letter-spacing: -.05rem; }
+    #h5 { font-size: 2.0rem; font-weight: 400; letter-spacing: -.05rem; }
     #h5-sub { font-size: 2.0rem; font-weight: 200; letter-spacing: -.05rem; font-style: italic; }
-    h6 { font-size: 1.6rem; font-weight: 400; letter-spacing: 0; }
+    #h6 { font-size: 1.6rem; font-weight: 400; letter-spacing: 0; }
     #h6-sub { font-size: 1.6rem; font-weight: 200; letter-spacing: 0; font-style: italic; }
 
     p {
