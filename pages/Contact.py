@@ -15,13 +15,11 @@ dash.register_page(__name__,
                    custom_key= 'Contact')
 
 # + ---- icons // buttons --- +
-'''
-Refer to these comments for accordion title styling.
+#Refer to these comments for accordion title styling.
 
-    myRes = html.I(className= 'p-3 fa-regular fa-file-lines fa-xl')
-    myGit = html.I(className= 'p-3 fa-brands fa-github fa-xl')
-    myLinked = html.I(className= 'p-3 fa-brands fa-linkedin fa-xl')
-'''
+#   -> myRes = html.I(className= 'p-3 fa-regular fa-file-lines fa-xl')
+#   -> myGit = html.I(className= 'p-3 fa-brands fa-github fa-xl')
+#   -> myLinked = html.I(className= 'p-3 fa-brands fa-linkedin fa-xl')
 
 # + ---- layout ---- +
 layout = dbc.Container([
