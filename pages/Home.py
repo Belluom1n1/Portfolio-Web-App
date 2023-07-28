@@ -18,7 +18,8 @@ dash.register_page(__name__,
                    path= '/')
 
 # + ---- fonts // custom css ---- +
-''' Import Fonts and styles/weights here. '''
+''' See Typography.css for Font and other styling  '''
+
 
 # + ---- lottie ---- +
 ''' Import Lottie animation files and build them into a container. '''
