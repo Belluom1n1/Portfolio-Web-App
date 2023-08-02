@@ -45,9 +45,9 @@ layout = dbc.Container([
                         html.Hr(style= {'width': '50%'}),
                         html.Br(),
                         dcc.Markdown('''
-                             * brianbelluomini@me.com
+                             * _email_1_
 
-                             * bbelluomini@csus.edu
+                             * _email_2_
                              '''),
                         html.Br(),
                         dcc.Markdown('#### Education:'),
@@ -84,9 +84,9 @@ layout = dbc.Container([
                                         title= 'Github',
                                         class_name= 'dbc',
                                     ),
-                                    dbc.AccordionItem(    # LinkedIn Item
+                                    dbc.AccordionItem(                                  # LinkedIn Item
                                         [
-                                            html.A(html.I(className= 'p-2 ms-1 fa-brands fa-linkedin fa-xl', style= {'color': '#6184f4'}), href= "https://linkedin.com/in/bbelluomini", target= '_blank'),
+                                            html.A(html.I(className= 'p-2 ms-1 fa-brands fa-linkedin fa-xl', style= {'color': '#6184f4'}), href= "https://linkedin.com/in/_user", target= '_blank'),
                                             "  You can view my LinkedIn profile by using the link embedded in this icon,",
                                             html.P("or by clicking the icon in the header.", className= 'mx-5'),
                                         ],

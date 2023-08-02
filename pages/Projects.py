@@ -20,3 +20,10 @@ layout = html.Div(
         html.H1('Projects Page')
     ]
 )
+
+'''
+Use Cards and Tabs to display projects in different areas?  
+    -> Data Science // Fantasy Football ?
+    -> School Projects RVM, Smart Parking System
+    -> Certifications, etc. 
+'''
