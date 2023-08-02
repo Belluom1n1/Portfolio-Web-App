@@ -73,6 +73,7 @@ layout = dbc.Container([
                                             '  Click on the icon to right to view my Resume.',
                                         ],
                                         title= 'Resume',
+                                        class_name= 'dbc',
                                     ),
                                     dbc.AccordionItem(     # Github Item
                                         [
