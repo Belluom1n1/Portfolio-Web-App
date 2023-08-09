@@ -87,9 +87,9 @@ layout = dbc.Container([
                                     ),
                                     dbc.AccordionItem(                                  # LinkedIn Item
                                         [
-                                            html.A(html.I(className= 'p-2 ms-1 fa-brands fa-linkedin fa-xl', style= {'color': '#6184f4'}), href= "https://linkedin.com/in/_user", target= '_blank'),
+                                            html.A(html.I(class_name= 'p-2 ms-1 fa-brands fa-linkedin fa-xl', style= {'color': '#6184f4'}), href= "https://linkedin.com/in/_user", target= '_blank'),
                                             "  You can view my LinkedIn profile by using the link embedded in this icon,",
-                                            html.P("or by clicking the icon in the header.", className= 'mx-5'),
+                                            html.P("or by clicking the icon in the header.", class_name= 'mx-5'),
                                         ],
                                         title= 'LinkedIn',
                                         class_name= 'dbc',
