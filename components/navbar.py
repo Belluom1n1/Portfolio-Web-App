@@ -33,7 +33,7 @@ def navbar():
                         html.I(className= 'p-2 fa-brands fa-linkedin fa-xl'),
                         ' ',
                     ],
-                    href= 'https://linkedin/in/bbelluom1n1',
+                    href= "https://linkedin.com/in/bbelluomini",
                     external_link= True,
                     target= '_blank',
                 )
