@@ -8,3 +8,4 @@ dash-extensions==1.0.3
 dash-html-components==2.0.0
 dash-mantine-components==0.12.1
 dash-table==5.0.0
+python==3.11.4
