@@ -44,5 +44,5 @@ app.layout = dbc.Container(
 # + ---- run server ---- +
 # Run server with debug developer mode
 if __name__ == '__main__':
-    app.run_server(port= 5500, debug= True)
+    app.run_server(debug= False)
 
