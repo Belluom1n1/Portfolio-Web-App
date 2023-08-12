@@ -29,7 +29,7 @@ app = Dash(__name__,
            external_stylesheets= [dbc.themes.FLATLY, FA621, TYPOGRAPHY],
            suppress_callback_exceptions= True,
            meta_tags= [{'name': 'viewport',
-                        'content': 'width= device-width, initial-scale=1',
+                        'content': 'width= device-width, initial-scale=1, maximum-scale=1.2, minimum-scale=0.5,',
                         'charSet': 'utf-8'}])
 server = app.server
 
