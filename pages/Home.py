@@ -42,7 +42,7 @@ layout = dbc.Container([
                                 dmc.Col(
                                     html.Div(
                                         [
-                                            html.H2('Brian Belluomin', id= 'h2', className= 'mb-1'),
+                                            html.H2('Brian Belluomini', id= 'h2', className= 'mb-1'),
                                             dcc.Markdown('#### _Student of Mechanical Engineering_', id= 'h5-sub', style= {'font-weight': 200}),
                                             html.Hr(className= 'mt-2 mb-3'),
                                         ]
